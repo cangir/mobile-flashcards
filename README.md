@@ -1,4 +1,4 @@
-<p align="center"><a href="https://in.udacity.com/course/react-nanodegree--nd019" target="_blank"><img width="180" src="https://raw.githubusercontent.com/cangir/udacity-reactnd-would-you-rather/master/assets/img/udacity.png" alt="Mobile Flashcards Udacity"></a>
+<p align="center"><a href="https://in.udacity.com/course/react-nanodegree--nd019" target="_blank"><img width="240" src="https://raw.githubusercontent.com/cangir/mobile-flashcards/master/assets/img/udacity.png" alt="Mobile Flashcards Udacity"></a>
 </p>
 
 # Mobile Flashcards React Native
