@@ -1,4 +1,4 @@
-<p align="center"><img width="240" src="https://raw.githubusercontent.com/cangir/mobile-flashcards/master/assets/icon.png" alt="Mobile Flashcards Udacity">
+<p align="center"><img width="192" src="https://raw.githubusercontent.com/cangir/mobile-flashcards/master/assets/icon.png" alt="Mobile Flashcards Udacity">
 </p>
 
 <h1 align="center">Mobile Flashcards React Native</h1>
