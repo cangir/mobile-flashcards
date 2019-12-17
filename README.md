@@ -1,5 +1,5 @@
-<p align="center"><a href="https://in.udacity.com/course/react-nanodegree--nd019" target="_blank"><img width="180" src="https://raw.githubusercontent.com/cangir/udacity-reactnd-would-you-rather/master/assets/img/udacity.svg" alt="Mobile Flashcards Udacity"></a>
-<strong style="display:block">Udacity</strong></p>
+<p align="center"><a href="https://in.udacity.com/course/react-nanodegree--nd019" target="_blank"><img width="180" src="https://raw.githubusercontent.com/cangir/udacity-reactnd-would-you-rather/master/assets/img/udacity.png" alt="Mobile Flashcards Udacity"></a>
+</p>
 
 # Mobile Flashcards React Native
 
@@ -11,8 +11,9 @@ Mobile Flashcards is the third of three projects required for [Udacity's React N
 
 ## Screenshots
 
-![Mobile Flashcards React Native - Udacity Project](https://raw.githubusercontent.com/cangir/mobile-flashcards/master/screenshots/mobile-flashcards-page-001.svg)
-![Mobile Flashcards React Native - Udacity Project](https://raw.githubusercontent.com/cangir/mobile-flashcards/master/screenshots/mobile-flashcards-page-002.svg)
+![Mobile Flashcards React Native - Udacity Project](https://raw.githubusercontent.com/cangir/mobile-flashcards/master/screenshots/mobile-flashcards-page-001.png)
+
+![Mobile Flashcards React Native - Udacity Project](https://raw.githubusercontent.com/cangir/mobile-flashcards/master/screenshots/mobile-flashcards-page-002.png)
 
 ## Installation
 
