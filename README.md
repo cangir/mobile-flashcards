@@ -1,7 +1,7 @@
-<p align="center"><a href="https://in.udacity.com/course/react-nanodegree--nd019" target="_blank"><img width="240" src="https://raw.githubusercontent.com/cangir/mobile-flashcards/master/assets/img/udacity.png" alt="Mobile Flashcards Udacity"></a>
+<p align="center"><img width="240" src="https://raw.githubusercontent.com/cangir/mobile-flashcards/master/assets/icon.png" alt="Mobile Flashcards Udacity">
 </p>
 
-# Mobile Flashcards React Native
+<h1 align="center">Mobile Flashcards React Native</h1>
 
 A React Native app for iOS and Android that allows users to create decks, add cards and quiz themselves.
 
