@@ -45,16 +45,12 @@ class DeckAdd extends React.Component {
             <KeyboardAvoidingView behavior="padding">
               <Card style={styles.card}>
                 <Card.Content style={styles.cardContent}>
-                  <TextHeader style={styles.title}>
-                    What is the title of your new deck?
-                  </TextHeader>
-
+                  <TextHeader>What is the title of your new deck?</TextHeader>
                   <TextInput
                     label="Deck Title"
                     returnKeyType="done"
-                    value={this.state.deckTitle}
                     onChangeText={this.handleChange("deckTitle")}
-                    autoCapitalize="none"
+                    autoCapitalize="sentences"
                   />
                 </Card.Content>
                 <Card.Actions>
@@ -109,6 +105,5 @@ const styles = StyleSheet.create({
   cardContent: {
     paddingTop: 30,
     paddingBottom: 30
-  },
-  title: {}
+  }
 });
