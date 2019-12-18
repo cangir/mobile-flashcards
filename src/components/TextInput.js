@@ -13,7 +13,7 @@ const InputText = ({ errorText, ...props }) => (
 const styles = StyleSheet.create({
   container: {
     width: "100%",
-    marginVertical: 12
+    marginBottom: 12
   },
   error: {
     fontSize: 14,
