@@ -5,9 +5,9 @@ import {
   View,
   KeyboardAvoidingView
 } from "react-native";
-import { TextInput, Card, Title, Colors } from "react-native-paper";
+import { Card, Colors } from "react-native-paper";
 import Main from "../components/Main";
-import { Button } from "../components";
+import { Button, TextHeader, TextInput } from "../components";
 import { connect } from "react-redux";
 import { handleAddCardToDeck } from "../store/actions/decks";
 
@@ -42,29 +42,30 @@ class CardAdd extends React.Component {
             <KeyboardAvoidingView behavior="padding">
               <Card style={styles.card}>
                 <Card.Content style={styles.cardContent}>
-                  <Title>What is the title of your card?</Title>
+                  <TextHeader>What is the title of your card?</TextHeader>
                   <TextInput
                     label="Question"
-                    mode="outlined"
+                    returnKeyType="done"
                     onChangeText={this.handleChange("question")}
+                    autoCapitalize="sentences"
                   />
-
-                  <Title>What is the title of your new deck?</Title>
+                  <TextHeader>What is the answer of your card?</TextHeader>
                   <TextInput
                     label="Answer"
-                    mode="outlined"
+                    returnKeyType="done"
                     onChangeText={this.handleChange("answer")}
+                    autoCapitalize="sentences"
                   />
                 </Card.Content>
-
-                <Button
-                  labelStyle={styles.buttonText}
-                  mode="contained"
-                  style={styles.button}
-                  onPress={() => this.onAddCardPress()}
-                >
-                  Press me
-                </Button>
+                <Card.Actions>
+                  <Button
+                    mode="contained"
+                    style={styles.button}
+                    onPress={() => this.onAddCardPress()}
+                  >
+                    Add New Card
+                  </Button>
+                </Card.Actions>
               </Card>
             </KeyboardAvoidingView>
           </ScrollView>
