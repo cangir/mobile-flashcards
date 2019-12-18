@@ -135,7 +135,10 @@ class Quiz extends React.Component {
             </TouchableOpacity>
           </CardFlip>
           <Text style={styles.remainingQuestionText}>
-            {this.props.deck.questions.length - questionIndex} question
+            {this.props.deck.questions.length - questionIndex}{" "}
+            {this.props.deck.questions.length - questionIndex > 1
+              ? "questions "
+              : "question "}
             remaining
           </Text>
         </View>
