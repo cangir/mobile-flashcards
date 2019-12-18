@@ -41,6 +41,13 @@ This will open Expo Developer Tools in the browser. You can then do one of the f
   - [iOS Simulator Setup](https://docs.expo.io/versions/v35.0.0/introduction/installation/#ios-simulator)
   - [Android Emulator Setup](https://docs.expo.io/versions/v35.0.0/introduction/installation/#android-emulator)
 
+## Tests
+
+| Platform | Device                | Tested             |
+| :------- | :-------------------- | :----------------- |
+| iOS      | iPhone 8 (ios 13.1.3) | :white_check_mark: |
+| Android  | LG G3 (android 6.0)   | :white_check_mark: |
+
 ## Application Icon
 
 - Application and splash icon are modified from the icon, made by [Nhor Phai](https://www.flaticon.com/authors/nhor-phai) from [www.flaticon.com](https://www.flaticon.com/). We would like to appreciate that work.
