@@ -113,10 +113,7 @@ class Quiz extends React.Component {
     return (
       <Main>
         <View style={styles.cardContainer}>
-          <CardFlip
-            style={styles.cardContainer}
-            ref={card => (this.card = card)}
-          >
+          <CardFlip style={styles.cardFlip} ref={card => (this.card = card)}>
             <TouchableOpacity
               style={[styles.card, styles.card1]}
               activeOpacity={0.9}
@@ -137,6 +134,10 @@ class Quiz extends React.Component {
               </Text>
             </TouchableOpacity>
           </CardFlip>
+          <Text style={styles.remainingQuestionText}>
+            {this.props.deck.questions.length - questionIndex} question
+            remaining
+          </Text>
         </View>
         <View style={styles.actionContainer}>
           <FAB
@@ -242,6 +243,10 @@ const styles = StyleSheet.create({
   animatedCardContainer: { flex: 1 },
   cardContainer: {
     flex: 4,
+    alignItems: "center"
+  },
+  cardFlip: {
+    flex: 1,
     height: hp("100%"),
     width: wp("100%") - 45,
     justifyContent: "center",
@@ -264,7 +269,8 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.8,
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    position: "relative"
   },
   card1: {
     backgroundColor: Colors.purple900
@@ -312,5 +318,10 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     alignItems: "center",
     justifyContent: "center"
+  },
+  remainingQuestionText: {
+    fontSize: 16,
+    paddingTop: 20,
+    color: Colors.grey500
   }
 });
